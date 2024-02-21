@@ -13,10 +13,6 @@ document.addEventListener('DOMContentLoaded',
         isInfoVisible = true;
         //legendControl.addTo(map);
         isInfoVisible2 = true;
-        setTimeout(function () {
-            legendControl.remove(map);
-            isInfoVisible2 = false;
-            }, 5000);
 });
 var isInfoVisible = false;
 document.getElementById("nut").addEventListener("click", 
@@ -419,7 +415,6 @@ function toggleLayer1() {
     info.classList.add("inactive");
     map.flyTo([11.014, 106.830], calculateZoom(), {duration : .5});
     dao.addTo(map);
-    legendControl.addTo(map);
     isInfoVisible2 = true;
 }
 
