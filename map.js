@@ -170,7 +170,7 @@ function createGeoJSONLayer(data) {
                         className: 'my-div-icon',
                         html: `
                         <div class="icon-text"><strong>${feature.properties.nam}</strong></div>
-                        <img src="img/dialy.svg" class="icon-image"/>`,
+                        <img src="https://maithulamm.github.io/dialy/img/dialy.svg" class="icon-image"/>`,
                         iconSize: [(window.innerWidth<1000 ? 25 : 40), 50]
                     })
                 });
@@ -259,7 +259,7 @@ function createGeoJSONLayer1(data) {
                         className: 'my-div-icon',
                         html: 
                         //<div class="icon-text"><strong>${feature.properties.id}</strong></div>
-                            `<img src="img/dialy.svg" class="icon-image"/>`,
+                            `<img src="https://maithulamm.github.io/dialy/img/dialy.svg" class="icon-image"/>`,
                         iconSize: [30, 30]
                     })
                 });
