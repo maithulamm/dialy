@@ -141,7 +141,7 @@ body {
     right: .1vw;
     position: absolute;
     z-index: 600;
-    top: 10vh;
+    top: 11vh;
 }
 
 
@@ -157,9 +157,13 @@ body {
     cursor: pointer;
 }
 
+#nut div {
+    color: red;
+}
+
 #nut span {
     cursor: pointer;
-    display: inline-block;
+    display: flex;
     transition: 0.5s;
 }
 
@@ -484,8 +488,7 @@ legend {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         top: 16vh;
-        left: 11vw;
-
+        left: 2vw;
         z-index: 1000;
     }
 
@@ -498,8 +501,8 @@ legend {
     .checkmark {
         width: auto;
         height: 3vh;
-        font-size: 40%;
-        padding: .2vh .4vh;
+        font-size: 47%;
+        padding: .2vh .5vh;
         margin: 0 1vw;
     }
 
@@ -590,5 +593,10 @@ legend {
 
     .long {
         display: none;
+    }
+    .icon-image {
+        height: 2.3vh;
+        object-fit: contain;
+        text-align: center;
     }
 }
