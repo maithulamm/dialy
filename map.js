@@ -261,7 +261,7 @@ function createGeoJSONLayer1(data) {
                 });
                 marker.on('click', function() {
                     var customLatLng = L.latLng(latlng.lat + .03, latlng.lng + 0.03);
-                    map.flyTo(customLatLng, (window.innerWidth<1000 ? 9 : 11), {duration : .5});
+                    map.flyTo(customLatLng, (window.innerWidth<1000 ? 10 : 11), {duration : .5});
                     isInfoVisible = false;
                     info.classList.remove("active");
                     info.classList.add("inactive");
